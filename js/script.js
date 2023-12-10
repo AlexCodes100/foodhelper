@@ -13,7 +13,7 @@ const recipes = [
             "1 tsp. Shaoxing wine or dry sherry",
             "1 tsp. toasted sesame oil",
             "Freshly ground black pepper",
-            "1 lb. flank or skirt steak",
+            "1 lb. flank or skirt steak beef",
             "2 cloves garlic, finely chopped",
             "1 tbsp. reduced-sodium soy sauce",
             "2 tsp. cornstarch",
@@ -106,7 +106,7 @@ const recipes = [
         "ingredients": [
             "1 cup vegetable oil",
             "2 medium russet potatoes or 3 smaller potatoes thinly sliced",
-            "1 lb steak thinly sliced",
+            "1 lb steak beef thinly sliced",
             "1 garlic clove chopped",
             "1/2 medium white or yellow onion thinly sliced",
             "1 chile Anaheim, jalapeno, or serrano peppers (see note 1) remove seeds for a less spicy dish",
@@ -152,7 +152,7 @@ const recipes = [
         "source": "https://www.muydelish.com/milanesa/",
         "recipeName": "MILANESAS DE RES",
         "ingredients": [
-            "1 pound thin steaks",
+            "1 pound thin steaks beef",
             "1 cup all-purpose flour",
             "3 large eggs",
             "2 cups bread crumbs or as needed",
@@ -219,7 +219,7 @@ const recipes = [
         "source": "https://addapinch.com/steak-fajitas-recipe/",
         "recipeName": "STEAK FAJITAS",
         "ingredients": [
-            "2 pounds skirt, flank, sirloin, or hanger steak, sliced into 1/2 inch strips",
+            "2 pounds skirt, flank, sirloin, or hanger steak beef, sliced into 1/2 inch strips",
             "1 red pepper, deseeded and sliced into thin strips",
             "1 bell pepper, deseeded and sliced into thin strips",
             "1 medium onion, peeled and sliced into thin strips",
@@ -505,7 +505,7 @@ const recipes = [
             "1/2 teaspoon freshly ground black pepper, plus more for seasoning",
             "1 (12-ounce) can soda water",
             "1 large egg, lightly beaten",
-            "2 (8-ounce) cod or haddock fillets, cut in 1/2 on an angle",
+            "2 (8-ounce) cod fish or haddock fillets, cut in 1/2 on an angle",
             "1/2 cup rice flour, for dredging",
             "Malt vinegar, for serving"
         ],
@@ -584,7 +584,7 @@ const recipes = [
         "ingredients": [
             "2 bunches of asparagus",
             "6 tablespoons olive oil (2 for the asparagus and 4 for the salmon)",
-            "4 salmon fillets",
+            "4 salmon fish fillets",
             "1 teaspoon salt (half for the asparagus and half for the salmon)",
             "1/2 teaspoon pepper (half for the asparagus and half for the salmon)",
             "2 tablespoons lemon juice (yellow)",
@@ -856,20 +856,18 @@ function displayRecipeDetails(recipe) {
   Search functionality      
 -----------------------------------------*/
 
-let keyword = '';
+let keywords = [];
 
 const keywordInput = document.getElementById('keyword');
 keywordInput.addEventListener('input', function() {
-    // Remove the old keyword from the selectedIngredients array
-    if (keyword) {
-        selectedIngredients = selectedIngredients.filter(ing => ing !== keyword);
-    }
+    // Remove the old keywords from the selectedIngredients array
+    keywords.forEach(kw => {
+        selectedIngredients = selectedIngredients.filter(ing => ing !== kw);
+    });
 
-    // Add the new keyword to the selectedIngredients array
-    keyword = this.value.toLowerCase();
-    if (keyword) {
-        selectedIngredients.push(keyword);
-    }
+    // Add the new keywords to the selectedIngredients array
+    keywords = this.value.toLowerCase().split(/[\s,]+/);
+    selectedIngredients = [...selectedIngredients, ...keywords];
 
     const filteredRecipes = recipes.filter(recipe => 
         selectedIngredients.every(ing => 
@@ -879,4 +877,3 @@ keywordInput.addEventListener('input', function() {
     );
     displayRecipeList(filteredRecipes);
 });
-
