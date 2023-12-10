@@ -602,6 +602,115 @@ const recipes = [
             "Place 3 slices of lemon on top of each fillet and a sprig of dill, close the foil to make 4 little packages to prevent contents from leaking out.",
             "Bake for 25 minutes or until the salmon is cooked. Serve."
         ]
+    },
+    {
+        "source": "https://www.foodnetwork.com/recipes/food-network-kitchen/broccoli-and-cheddar-frittata-5486442",
+        "recipeName": "BROCCOLI AND CHEDDAR FRITTATA",
+        "ingredients": [
+            "10 large eggs",
+            "1/4 cup milk",
+            "Kosher salt and freshly ground black pepper",
+            "2 cups chopped cooked broccoli",
+            "1 cup shredded Cheddar",
+            "1/4 teaspoon cayenne",
+            "1 tablespoon extra-virgin olive oil",
+            "Snipped fresh chives, for serving"
+        ],
+        "instructions": [
+            "Preheat the oven to 400 degrees F.",
+            "Whisk together the eggs, milk, 3/4 teaspoon salt, and a few grinds of pepper in a large bowl. Stir in the broccoli, Cheddar, and cayenne.",
+            "Heat the oil in a medium ovenproof nonstick skillet over medium-high heat. Add the egg mixture and cook until the edges start to set, about 2 minutes.",
+            "Transfer to the oven and bake until the center is set, 15 to 20 minutes. Let rest for 5 minutes before sliding carefully onto a cutting board.",
+            "Cut into wedges and transfer to serving plates. Sprinkle with chives. Serve with lettuce leaves and tomato wedges if using."
+        ]
+    },
+    {
+        "source": "https://www.allrecipes.com/chilaquiles-with-homemade-tomato-sauce-recipe-8403873",
+        "recipeName": "CHILAQUILES",
+        "ingredients": [
+            "16 (6-inch) corn tortillas",
+            "2 cups oil, or as needed for frying",
+            "1 teaspoon kosher salt, plus more to taste",
+            "2 cups water",
+            "2 guajillo chiles, stems and seeds removed",
+            "1 white onion, quartered",
+            "3 cloves garlic",
+            "4 ripe tomatoes, quartered",
+            "2 jalapenos, halved",
+            "1 teaspoon ground cumin",
+            "1 (14.5 ounce) can fire-roasted diced tomatoes",
+            "2 teaspoons red wine vinegar",
+            "1 tablespoon olive oil",
+            "1/2 cup crumbled queso fresco",
+            "1 avocado, sliced",
+            "1/4 cup sour cream"
+        ],
+        "instructions": [
+            "Cut each tortilla into 8 wedges. Heat oil to 350 degrees F (180 degrees C) in a large pot over medium-high heat. Add tortillas to fry in batches, taking care not to crowd the pot. Cook, stirring constantly until golden and crispy, 1 to 2 minutes. Remove from oil with a slotted spoon and drain well on paper towels. Sprinkle with salt to taste immediately. Repeat with remaining tortillas.",
+            "In a large saucepan, add water and guajillo chiles. Bring mixture to a boil over high heat, reduce temperature, and simmer until chiles soften, about 5 minutes. Return heat to medium-high and add onion, garlic, tomatoes, jalapenos, cumin, and 1 teaspoon salt. Cook, stirring occasionally, until onion has softened, about 10 minutes.",
+            "Remove from heat and carefully pour mixture into a blender or food processor. Add canned tomatoes, vinegar, and olive oil. Remove center from the lid to allow steam to escape and blend until smooth, about 1 minute, scraping down the sides as necessary.",
+            "In a large skillet over medium heat, add 1 cup of sauce and bring to a simmer, stirring often. Add 1/4 of the chips and cook about 3 minutes, stirring frequently, until the chips are well-coated in sauce and fully heated through. Place chips on a plate."
+        ]
+    },
+    {
+        "source": "https://www.foodnetwork.com/recipes/ina-garten/garlic-roasted-potatoes-recipe-1913067",
+        "recipeName": "GARLIC ROASTED POTATOES",
+        "ingredients": [
+            "3 pounds small red or white potatoes",
+            "1/4 cup good olive oil",
+            "1 1/2 teaspoons kosher salt",
+            "1 teaspoon freshly ground black pepper",
+            "2 tablespoons minced garlic (6 cloves)",
+            "2 tablespoons minced fresh parsley"
+        ],
+        "instructions": [
+            "Preheat the oven to 400 degrees F.",
+            "Cut the potatoes in half or quarters and place in a bowl with the olive oil, salt, pepper, and garlic; toss until the potatoes are well coated. Transfer the potatoes to a sheet pan and spread out into 1 layer. Roast in the oven for 45 minutes to 1 hour or until browned and crisp. Flip twice with a spatula during cooking in order to ensure even browning.",
+            "Remove the potatoes from the oven, toss with parsley, season to taste, and serve hot."
+        ]
+    },
+    {
+        "source": "https://www.foodnetwork.com/recipes/ina-garten/roasted-tomato-basil-soup-recipe-1940376",
+        "recipeName": "ROASTED TOMATO BASIL SOUP",
+        "ingredients": [
+            "3 pounds ripe plum tomatoes, cut in half lengthwise",
+            "1/4 cup plus 2 tablespoons good olive oil",
+            "1 tablespoon kosher salt",
+            "1 1/2 teaspoons freshly ground black pepper",
+            "2 cups chopped yellow onions (2 onions)",
+            "6 garlic cloves, minced",
+            "2 tablespoons unsalted butter",
+            "1/4 teaspoon crushed red pepper flakes",
+            "1 (28-ounce) canned plum tomatoes, with their juice",
+            "4 cups fresh basil leaves, packed",
+            "1 teaspoon fresh thyme leaves",
+            "1 quart chicken stock or water"
+        ],
+        "instructions": [
+            "Preheat the oven to 400 degrees F. Toss together the tomatoes, 1/4 cup olive oil, salt, and pepper. Spread the tomatoes in 1 layer on a baking sheet and roast for 45 minutes.",
+            "In an 8-quart stockpot over medium heat, saute the onions and garlic with 2 tablespoons of olive oil, the butter, and red pepper flakes for 10 minutes, until the onions start to brown. Add the canned tomatoes, basil, thyme, and chicken stock. Add the oven-roasted tomatoes, including the liquid on the baking sheet. Bring to a boil and simmer uncovered for 40 minutes. Pass through a food mill fitted with the coarsest blade. Taste for seasonings. Serve hot or cold."
+        ]
+    },
+    {
+        "source": "https://www.foodnetwork.com/recipes/food-network-kitchen/broccoli-gratin-recipe-1928220",
+        "recipeName": "BROCCOLI GRATIN",
+        "ingredients": [
+            "1/4 cup unsalted butter, plus more for the baking dish",
+            "3 tablespoons all-purpose flour",
+            "1 1/2 cups whole milk",
+            "1 1/2 teaspoons kosher salt, plus more as needed",
+            "Pinch freshly grated nutmeg",
+            "Freshly ground black pepper",
+            "2 pounds broccoli (about 4 heads), cut into small florets (about 8 cups)",
+            "1 cup grated sharp Cheddar (about 4 ounces)",
+            "1/2 cup fresh bread crumbs"
+        ],
+        "instructions": [
+            "Place a rack in the middle of the oven and preheat to 450 degrees F. Butter an 8-by-8-by-2-inch baking dish or an 8-cup gratin dish.",
+            "Melt 3 tablespoons of the butter in a medium saucepan over medium heat. Whisk in the flour until smooth. Cook, stirring, for 1 minute. Add the milk, 1 1/2 teaspoons salt, and nutmeg and bring to a boil while whisking constantly. Lower the heat and simmer, stirring occasionally, until the white sauce is thickened, about 10 minutes. Season with pepper. Remove from the heat.",
+            "Meanwhile, bring about 1-inch of water to a boil in a large saucepan and set up a collapsible steamer on top. Put the broccoli in the steamer and season with salt. Cover, and steam until crisp-tender, about 5 minutes. Put the broccoli in the prepared dish, sprinkle with half of the cheese and pour on the sauce. Cover with the remaining cheese.",
+            "Melt the remaining 1 tablespoon butter in a medium skillet over medium-high heat. Add the bread crumbs and cook, stirring, until lightly browned, about 2 minutes. Cover the gratin with the bread crumbs. Bake until lightly browned and bubbly, about 20 minutes. Serve immediately."
+        ]
     }
 ];
 
