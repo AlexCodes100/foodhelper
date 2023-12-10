@@ -1,0 +1,36 @@
+[
+    {
+        "recipeName": "Chocolate Cake",
+        "ingredients": [
+            "1 cup sugar",
+            "3/4 cup flour",
+            "1/2 cup cocoa powder",
+            "1 teaspoon baking powder",
+            "2 eggs",
+            "1/2 cup milk"
+        ],
+        "instructions": "Preheat oven to 350 degrees F. In a bowl, mix sugar, flour, cocoa, and baking powder. Add eggs and milk and blend until smooth. Pour into a greased pan and bake for 35 minutes."
+    },
+    {
+        "recipeName": "Pasta Carbonara",
+        "ingredients": [
+            "400g spaghetti",
+            "100g pancetta",
+            "2 large eggs",
+            "50g Parmesan cheese",
+            "2 cloves garlic",
+            "Salt and pepper"
+        ],
+        "instructions": "Cook spaghetti. Fry pancetta with garlic. Beat eggs and Parmesan, then remove pan from heat and mix with pasta. Add egg mixture to pasta, stirring quickly. Season with salt and pepper."
+    },
+    {
+        "recipeName": "Caesar Salad",
+        "ingredients": [
+            "3 cups romaine lettuce",
+            "1/2 cup croutons",
+            "1/4 cup grated Parmesan cheese",
+            "Dressing: 1/2 cup mayonnaise, 1 tablespoon lemon juice, 1 teaspoon Dijon mustard, 1 minced garlic clove, Salt and pepper"
+        ],
+        "instructions": "In a large bowl, mix lettuce, croutons, and Parmesan. In a small bowl, whisk together dressing ingredients. Toss salad with dressing and serve immediately."
+    }
+]
